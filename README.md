@@ -23,7 +23,7 @@ Equipamentos que estamos usando:
 - switch Intelbras SG 2404D PoE Max;
 - roteador residencial;
 - computador Windows;
-- Kali Linux, provavelmente em VM bridge ou em uma máquina separada;
+- Kali Linux, em uma máquina separada;
 - cabos de rede.
 
 O lab não tem firewall dedicado, Active Directory, Radius, TACACS, SIEM ou servidor de logs. Então a ideia é não forçar cenário corporativo onde ele não existe.
@@ -48,7 +48,7 @@ Nosso plano é seguir mais ou menos esta ordem:
 2. Conectar a Kali na mesma rede.
 3. Fazer reconhecimento básico antes de qualquer hardening.
 4. Rodar alguns testes controlados de camada 2.
-5. Anotar o que realmente aconteceu no lab, sem exagerar resultado.
+5. Anotar o que realmente aconteceu no lab.
 6. Atualizar firmware, se tudo estiver seguro para isso.
 7. Aplicar hardening somente com recursos confirmados no equipamento.
 8. Repetir os testes depois.
